@@ -1,0 +1,75 @@
+@media screen and (max-width:400px){
+    .nav-container{
+        flex-direction: column;
+      }
+      .nav-container{
+          flex-direction: column;
+          width: 100%;
+      }
+      .nav-container h2{
+        margin-top: 20px;
+        width: 100%;
+      }
+      .nav-items-container {
+        width: 100%;
+        text-align: center;
+          margin-top: 20px;
+          flex-direction: column;
+      }
+
+      .nav-items-container .followus-btn{
+  
+     width: 100%;
+  
+      }
+
+
+}
+    
+    /* nav responsive ends here */
+    .banner-container{
+        flex-direction: column;
+    
+    
+    }
+    .banner-text, .banner-img{
+        width: 100%;
+    }
+
+
+
+
+
+    /* tablet responsive starts here */
+
+
+    @media screen  (min-width:400px) and (max-width:768px) {
+        .nav-items-container {
+            width: 100%;
+            
+            text-align: center;
+              margin-top: 20px;
+              
+          }
+          .banner-text:{
+            width: 100%;
+          }
+          /* navber design ends here */
+          /* banner section starts here */
+    .banner-container{
+        display: flex;
+        row-gap: none;
+    }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
