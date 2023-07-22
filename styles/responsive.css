@@ -27,19 +27,35 @@
 }
     
     /* nav responsive ends here */
+    /* banner section starts here */
     .banner-container{
         flex-direction: column;
     
     
     }
+    .banner-text h1{
+      font-size: 45px;
+    }
     .banner-text, .banner-img{
         width: 100%;
     }
+/* banner section ends here */
+/* grid container section starts here */
+.grid-container{
+  max-width: 100%;
+  
+  }
+  .Online-Game{
+    
+display:grid;
+   grid-template-columns: repeat(1,1fr);
+  
+
+}
 
 
 
-
-
+/* grid container section ends here */
     /* tablet responsive starts here */
 
 
@@ -61,7 +77,30 @@
         row-gap: none;
     }
     }
+    /* banner section ends here */
+  /* grid container section starts here */
+
+  .Online-Game{
     
+    display:grid;
+       grid-template-columns: repeat(2,1fr);
+      
+    
+    }
+
+/* grid container section ends here  */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
